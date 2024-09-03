@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # 指定库文件路径
-link_directories(${CMAKE_SOURCE_DIR}/lib)
+link_directories(${CMAKE_SOURCE_DIR}/lib/x64)
 
 # 添加可执行文件
 add_executable(OceanSDKExample example/example.cpp)
